@@ -4648,7 +4648,7 @@ ol.wp-block-rss {
   padding: 22px 0;
 }
 .main-menu > ul > li > a:hover {
-  color: var(--theme-color);
+  color: #022f4d;
 }
 .main-menu ul {
   margin: 0;
