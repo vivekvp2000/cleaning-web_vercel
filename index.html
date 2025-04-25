@@ -20,6 +20,21 @@
     <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
+<style>
+    .hero-1 {
+        position: relative;
+    }
+
+    .hero-1::after {
+        position: absolute;
+        top: 0;
+        content: '';
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.514);
+    }
+</style>
 
 <body>
     <div class="preloader"><button class="th-btn preloaderCls">Cancel Preloader</button>
@@ -45,7 +60,6 @@
                             <li><a href="#">Service Details</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
@@ -66,7 +80,6 @@
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">About Us</a></li>
                                     <li><a href="#">Service</a></li>
-                                    <li><a href="#">Blog</a></li>
                                     <li><a href="">Contact</a></li>
                                 </ul>
                             </nav><button type=" button" class="th-menu-toggle d-block d-lg-none"><i
@@ -82,7 +95,8 @@
             </div>
         </div>
     </header>
-    <div class="th-hero-wrapper hero-1" id="hero" data-bg-src="assets/img/hero/hero_bg_1_1.jpg">
+    <div class="th-hero-wrapper hero-1" id="hero"
+        data-bg-src="https://media.istockphoto.com/id/1150282133/photo/cleaning-window-pane-with-detergent.jpg?s=612x612&w=0&k=20&c=BkzVas8qZ_VLxLDWpDAPbVSDRXgRFMxbI3_NHcamUfk=">
         <div class="hero-inner">
             <div class="shape-mockup jump shape-1"><img src="assets/img/shape/hero_shape_1_1.svg" alt="shape"></div>
             <div class="shape-mockup moving shape-2"><img src="assets/img/shape/hero_shape_1_2.svg" alt="shape"></div>
@@ -92,33 +106,14 @@
             <div class="shape-mockup jump shape-5"><img src="assets/img/shape/hero_shape_1_5.svg" alt="shape"></div>
             <div class="shape-mockup jump shape-6"><img src="assets/img/shape/hero_shape_1_6.svg" alt="shape"></div>
             <div class="container">
-                <div class="hero-style1">
-                    <h1 class="hero-title"><span class="title1">Best Pressure Washing
-                        </span> <span class="title2"> Experience in </span> <span class="title2">Philadelphia</span>
+                <div class="hero-style1 d-flex align-items-center justify-content-between flex-column">
+                    <h1 class="hero-title text-white text-center">Best Pressure Washing <br>
+                        Experience in Philadelphia
                     </h1>
                     <div class="btn-group justify-content-center"><a href="#" class="th-btn star-btn">Discover
-                            More</a> <a href="service.html" class="th-btn star-btn bg-theme2 text-title shadow-none">Our
+                            More</a> <a href="service.html"
+                            class="th-btn star-btn text-title shadow-none text-white">Our
                             Services</a></div>
-                </div>
-            </div>
-            <div class="hero-img"><img src="assets/img/hero/hero_1_1.png" alt="Image">
-                <div class="hero-img-bg-shape-wrap">
-                    <div class="left">
-                        <div class="bg-shape-1">
-                            <div class="bg-shape"></div>
-                        </div>
-                        <div class="bg-shape-2">
-                            <div class="bg-shape"></div>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <div class="bg-shape-3">
-                            <div class="bg-shape"></div>
-                        </div>
-                        <div class="bg-shape-4">
-                            <div class="bg-shape"></div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -484,7 +479,13 @@
 
 
 
-    <div class="service-offer-sec bg-theme overflow-hidden">
+    <style>
+        .service-offer-sec {
+            background-color: #022f4d;
+        }
+    </style>
+
+    <div class="service-offer-sec overflow-hidden">
         <div class="service-offer-wrapper">
             <div class="service-offer-box">
                 <div class="service-offer-group">
@@ -680,128 +681,29 @@
             </div>
         </div>
     </section>
-    <section class="space-bottom" id="blog-sec">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-7 col-lg-9">
-                    <div class="title-area text-center"><span class="sub-title justify-content-center">Blog &
-                            News</span>
-                        <h2 class="sec-title">Get Latest News & Updates</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-area">
-                <div class="swiper th-slider has-shadow" id="blogSlider1"
-                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}, "autoHeight": "true"}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img"><img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta"><a href="blog.html"><i class="fa-light fa-calendar"></i>Jun
-                                            22, 2024</a> <a href="blog.html"><i class="fa-regular fa-clock"></i>05
-                                            min
-                                            read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">The Role of Technology in
-                                            Modern
-                                            Cleaning Services</a></h3><a href="blog-details.html" class="link-btn">Read
-                                        Details <i class="fa-regular fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img"><img src="assets/img/blog/blog_1_2.jpg" alt="blog image">
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta"><a href="blog.html"><i class="fa-light fa-calendar"></i>Jun
-                                            23, 2024</a> <a href="blog.html"><i class="fa-regular fa-clock"></i>04
-                                            min
-                                            read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">Why Regular Carpet Cleaning is
-                                            Crucial for Your Health</a></h3><a href="blog-details.html"
-                                        class="link-btn">Read Details <i class="fa-regular fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img"><img src="assets/img/blog/blog_1_3.jpg" alt="blog image">
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta"><a href="blog.html"><i class="fa-light fa-calendar"></i>Jun
-                                            24, 2024</a> <a href="blog.html"><i class="fa-regular fa-clock"></i>08
-                                            min
-                                            read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">Common Cleaning Mistakes and
-                                            How
-                                            to Avoid Them</a></h3><a href="blog-details.html" class="link-btn">Read
-                                        Details <i class="fa-regular fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img"><img src="assets/img/blog/blog_1_4.jpg" alt="blog image">
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta"><a href="blog.html"><i class="fa-light fa-calendar"></i>Jun
-                                            26, 2024</a> <a href="blog.html"><i class="fa-regular fa-clock"></i>06
-                                            min
-                                            read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">How to Maintain Cleanliness in
-                                            Pet-Friendly Homes</a></h3><a href="blog-details.html" class="link-btn">Read
-                                        Details <i class="fa-regular fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img"><img src="assets/img/blog/blog_1_5.jpg" alt="blog image">
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta"><a href="blog.html"><i class="fa-light fa-calendar"></i>Jun
-                                            27, 2024</a> <a href="blog.html"><i class="fa-regular fa-clock"></i>10
-                                            min
-                                            read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">The Best Practices for
-                                            Cleaning
-                                            Delicate Fabrics</a></h3><a href="blog-details.html" class="link-btn">Read
-                                        Details <i class="fa-regular fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="blog-card">
-                                <div class="blog-img"><img src="assets/img/blog/blog_1_2.jpg" alt="blog image">
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta"><a href="blog.html"><i class="fa-light fa-calendar"></i>Jun
-                                            29, 2024</a> <a href="blog.html"><i class="fa-regular fa-clock"></i>09
-                                            min
-                                            read</a></div>
-                                    <h3 class="box-title"><a href="blog-details.html">Top 5 Myths About Home
-                                            Cleaning
-                                            Debunked</a></h3><a href="blog-details.html" class="link-btn">Read
-                                        Details
-                                        <i class="fa-regular fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><button data-slider-prev="#blogSlider1" class="slider-arrow slider-prev"><i
-                        class="far fa-arrow-left"></i></button> <button data-slider-next="#blogSlider1"
-                    class="slider-arrow slider-next"><i class="far fa-arrow-right"></i></button>
-            </div>
-        </div>
-    </section>
-    <footer class="footer-wrapper footer-default" data-bg-src="assets/img/bg/footer_bg_1.jpg">
+    <style>
+        .footer-wrapper {
+            position: relative;
+        }
+
+        .footer-wrapper::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgb(0 0 0 / 25%);
+            z-index: -1;
+        }
+    </style>
+
+    <footer class="footer-wrapper footer-default" data-bg-src="assets/img/footer-bg-main.jpg">
         <div class="shape-mockup footer-shape-1 jump-reverse d-none d-xxl-block"><img
                 src="assets/img/icon/footer-shape-1.png" alt="shape"></div>
         <div class="shape-mockup footer-shape-2 jump-reverse"><img src="assets/img/icon/footer-shape-2.png" alt="shape">
         </div>
-        <div class="footer-bottom-shape" data-mask-src="assets/img/bg/footer-shape-bottom.png"></div>
+        <div class="footer-bottom-shape" data-mask-src="assets/img/footer-bg-bottom.png"></div>
         <div class="footer-top">
             <div class="container">
                 <div class="row">
@@ -922,8 +824,9 @@
             <div class="container">
                 <div class="row gy-2 align-items-center">
                     <div class="col-md-12">
-                        <p class="copyright-text text-center">Copyright <i class="fal fa-copyright"></i> 2025 <a
-                                href="#" class="text-dark">Amirait</a>. All Rights Reserved.</p>
+                        <p class="copyright-text text-center text-white">Copyright <i class="fal fa-copyright"></i> 2025
+                            <a href="#" class="text-white">Amirait</a>. All Rights Reserved.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -942,7 +845,6 @@
     <script src="/assets/js/main.js"></script>
     <script>
         Fancybox.bind("[data-fancybox]", {
-            // Your custom options
         });
     </script>
 </body>
