@@ -4923,7 +4923,7 @@ ol.wp-block-rss {
   color: var(--theme-color2);
 }
 .header-default {
-  background: var(--white-color);
+  background: var(--theme-color);
   border-radius: 0 0 55px 55px;
   position: absolute;
   left: 0;
@@ -7790,9 +7790,6 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child
   right: 5%;
 }
 @media (max-width: 1500px) {
-  .hero-style1 {
-    padding: 320px 0 125px;
-  }
   .hero-title {
     font-size: 70px;
   }
