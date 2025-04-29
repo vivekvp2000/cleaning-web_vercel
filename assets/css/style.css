@@ -11415,7 +11415,6 @@ span.select2-selection.select2-selection--single:focus {
   border-radius: 30px;
 }
 .quote-form-box.style-2 .contact-form {
-  max-width: 625px;
   border: 1px solid var(--th-border-color);
   border-radius: 0 30px 30px 0;
   background: var(--smoke-color);
