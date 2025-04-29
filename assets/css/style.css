@@ -1268,7 +1268,7 @@ textarea.is-invalid {
   -webkit-transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
   transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
 }
-.th-btn.star-btn:before {
+/* .th-btn.star-btn:before {
   content: "";
   position: absolute;
   top: 10%;
@@ -1284,8 +1284,8 @@ textarea.is-invalid {
   background-repeat: no-repeat;
   -webkit-transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
   transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
-}
-.th-btn.star-btn:after {
+} */
+/* .th-btn.star-btn:after {
   content: "";
   position: absolute;
   top: 15%;
@@ -1301,7 +1301,7 @@ textarea.is-invalid {
   background-repeat: no-repeat;
   -webkit-transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
   transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
-}
+} */
 .th-btn.star-btn2:before {
   content: "";
   position: absolute;
